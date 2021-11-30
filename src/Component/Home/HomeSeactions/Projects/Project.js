@@ -18,11 +18,11 @@ const Project = ({pj}) => {
     return (
         <Col className="col-sm-12 col-md-6 col-xl-4">
             <div className="m-3 banner-img content" data-aos="zoom-in">
-                <div class="content-overlay"></div>
+                <div className="content-overlay"></div>
                 <Image src={gallery1} style={{width:'100%', height:'200px'}}/>
                     
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">{title}</h3>
+                    <div className="content-details fadeIn-bottom">
+                        <h3 className="content-title">{title}</h3>
                             <Link to={`/portfolio/${id}`}>
                                 <button className="btn btn-primary content-text text-white">More Details</button>
                             </Link>
