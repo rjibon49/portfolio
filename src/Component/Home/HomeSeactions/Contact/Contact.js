@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
-import { Link } from 'react-router-dom';
 import '../../../../Global/GlobalStyle.css';
 
 const Contact = () => {
@@ -18,13 +17,13 @@ const Contact = () => {
       });
   };
 
-  const dancleClickLinkedin = () => {
+  const hancleClickLinkedin = () => {
       window.open("https://www.linkedin.com/in/rayhanhossainjibon/");
   };
-  const dancleClickGithub = () => {
+  const hancleClickGithub = () => {
       window.open("https://github.com/rjibon49");
   };
-  const dancleClickFacebook = () => {
+  const hancleClickFacebook = () => {
       window.open("https://www.facebook.com/rayhan.hossain016");
   };
     return (
@@ -59,9 +58,9 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="ms-5 d-flex justify-content-center">
-                            <i className="fab fa-linkedin fs-1 mt-4 mx-3 socialLink"  onClick={dancleClickLinkedin}></i>
-                            <i className="fab fa-github fs-1 mt-4 mx-3 socialLink"  onClick={dancleClickGithub}></i>
-                            <i className="fab fa-facebook fs-1 mt-4 mx-3 socialLink"  onClick={dancleClickFacebook}></i>
+                            <i className="fab fa-linkedin fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickLinkedin}></i>
+                            <i className="fab fa-github fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickGithub}></i>
+                            <i className="fab fa-facebook fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickFacebook}></i>
                         </div>
                    </div>
                 </Col>
