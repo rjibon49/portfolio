@@ -18,7 +18,7 @@ const Ban = () => {
         <Container>
                 <Row>
                     <Col className="d-flex align-items-center col-sm-12 col-md-6">
-                        <div data-aos="fade-up" >
+                        <div data-aos="fade-up"  className="ms-5">
                             <h1 className="text-white">I'am</h1>
                             <h1 className="text-white">Md. Raihan Hossain</h1>
                             <span style={{ color: 'red', fontWeight: 'bold', fontSize:'25px' }}>
@@ -41,7 +41,7 @@ const Ban = () => {
                     </Col>
 
                     <Col className="col-sm-12 col-md-6">
-                        <Image src={bannerImg} style={{width:'100%', height:'auto', padding:50}} data-aos="zoom-in"/>
+                        <Image src={bannerImg} style={{width:'90%', height:'500px', padding:50}} data-aos="zoom-in"/>
                     </Col>
                 </Row>
             </Container>
