@@ -16,12 +16,12 @@ const Project = ({pj}) => {
     },[])
     const {id, title, gallery1} = pj;
     return (
-        <Col className="col-sm-12 col-md-6 col-xl-4">
+        <Col xs={12} sm={12} md={6} lg={4}>
             <div className="m-3 banner-img content" data-aos="zoom-in">
                 <div className="content-overlay"></div>
-                <Image src={gallery1} style={{width:'100%', height:'200px'}}/>
+                <Image src={gallery1} className="img-thumbnail testimg"/>
                     
-                    <div className="content-details fadeIn-bottom" style={{backgroundColor: 'rgba(3, 3, 3, 0.842)', padding: '60px 0px'}}>
+                    <div className="content-details fadeIn-bottom">
                         <h3 className="content-title">{title}</h3>
                             <Link to={`/portfolio/${id}`}>
                                 <button className="btn btn-primary content-text text-white">More Details</button>

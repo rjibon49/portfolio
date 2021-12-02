@@ -1,13 +1,28 @@
-.banner-img img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+
+.bannerimage img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
-.banner-img:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+
+/* ABOUT  */
+
+.HeaadSubTitle p{
+  font-size: 20px;
 }
+.skilsItem i{
+  font-size: 22px;
+  margin: 10px 12px;
+}
+
+.testimg{
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
 
 .content {
   position: relative;
@@ -78,4 +93,83 @@
 
 .socialLink {
   cursor: pointer;
+}
+
+.portpoliobtn a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .title1{
+    font-size: 22px;
+  }
+  .banner-title span{
+    font-size: 18px;
+  }
+  .hirebtn a {
+    font-size: 10;
+    
+  }
+  .bannerimage img{
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  /* About */
+
+  .HeaadSubTitle p{
+    font-size: 14px;
+  }
+  .skilsItem i{
+    font-size: 14px;
+    margin: 10px 8px;
+  }
+
+  .contactInfo{
+    margin-top: 35px;
+  }
+
+  .testimg{
+    width: 90%;
+    height: auto;
+  }
+
+  .portpoliobtn a{
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 20px 10px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* About */
+
+  .HeaadSubTitle p{
+    font-size: 16px;
+  }
+  .skilsItem i{
+    font-size: 18px;
+    margin: 10px 12px;
+  }
+
+  .testimg{
+    width: 90%;
+    height: auto;
+  }
+  .portpoliobtn a{
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+  }
 }

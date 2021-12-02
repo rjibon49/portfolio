@@ -30,12 +30,12 @@ const Contact = () => {
         <Container className="text-white mt-5 py-5">
             <div className="text-center">
                 <h1 className="fs-1 fw-bold"> Contact</h1>
-                <div className="px-5 mx-5 text-center fs-5">
+                <div className="text-center fs-5 HeaadSubTitle">
                     <p>Any question or remark? Just write a message!</p>
                 </div>
             </div>
             <Row className="mt-5">
-                <Col className="col-sm-12 col-md-6 col-xl-6">
+                <Col xs={12} md={6}>
                     <div className="mx-5">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="form-group">
@@ -48,16 +48,16 @@ const Contact = () => {
                         </form>
                     </div>
                 </Col>
-                <Col className="col-sm-12 col-md-6 col-xl-6">
-                   <div className="d-flex flex-column">
+                <Col xs={12} md={6}>
+                   <div className="d-flex flex-column contactInfo">
                     <div className="mx-auto">
-                            <div className="d-flex flex-column ms-5">
+                            <div className="d-flex flex-column">
                                 <i className="fas fa-location-arrow fs-4 my-2"><span className="ms-3">Dhaka, Bangladesh</span></i>
                                 <i className="fas fa-envelope fs-4 my-2"> <span className="ms-3">rjibon49@gmail.com</span> </i>
                                 <i className="fas fa-phone fs-4 my-2"> <span className="ms-3">+8801619972730</span> </i>
                             </div>
                         </div>
-                        <div className="ms-5 d-flex justify-content-center">
+                        <div className="d-flex justify-content-center">
                             <i className="fab fa-linkedin fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickLinkedin}></i>
                             <i className="fab fa-github fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickGithub}></i>
                             <i className="fab fa-facebook fs-1 mt-4 mx-3 socialLink"  onClick={hancleClickFacebook}></i>

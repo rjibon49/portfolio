@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import bannerImg from '../../../Image/banner.png'
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { Typewriter } from 'react-simple-typewriter';
+import '../../../Global/GlobalStyle.css';
 
 const Ban = () => {
     useEffect(() => {
@@ -16,12 +17,12 @@ const Ban = () => {
     },[])
     return (
         <Container>
-                <Row>
-                    <Col className="d-flex align-items-center col-sm-12 col-md-6">
-                        <div data-aos="fade-up"  className="ms-5">
-                            <h1 className="text-white">I'am</h1>
-                            <h1 className="text-white">Md. Raihan Hossain</h1>
-                            <span style={{ color: 'red', fontWeight: 'bold', fontSize:'25px' }}>
+                <Row className="d-flex align-items-center">
+                    <Col xs={12} sm={12} md={6}>
+                        <div data-aos="fade-up"  className="banner-title">
+                            <h1 className="text-white title1">I'am</h1>
+                            <h1 className="text-white title1">Md. Raihan Hossain</h1>
+                            <span style={{ color: 'red', fontWeight: 'bold', fontSize:'25px' }} className="subtitle">
                                 <Typewriter 
                                 loop
                                 cursor
@@ -32,16 +33,18 @@ const Ban = () => {
                                 words={['Front-end Developer','MERN Stack Developer']}
                                 />
                             </span>
-                            <div className="mt-5">
-                            <a href="https://drive.google.com/file/d/1mPdmpHT4dS99HcEK4mJF9fyOBzze6BD2/view" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}}>Resume</a>
+                            <div className="mt-5 hirebtn">
+                            <a href="https://drive.google.com/file/d/1mPdmpHT4dS99HcEK4mJF9fyOBzze6BD2/view" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}} >Resume</a>
 
                             <a href="https://www.upwork.com/freelancers/~011c05ba5c4f086413" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}}>Hire Me</a>
                             </div>
                         </div>
                     </Col>
 
-                    <Col className="col-sm-12 col-md-6">
-                        <Image src={bannerImg} style={{width:'90%', height:'500px', padding:50}} data-aos="zoom-in"/>
+                    <Col xs={12} sm={12} md={6}>
+                        <div className="bannerimage">
+                        <Image src={bannerImg} data-aos="zoom-in"/>
+                        </div>
                     </Col>
                 </Row>
             </Container>

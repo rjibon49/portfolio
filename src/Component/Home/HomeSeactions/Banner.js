@@ -6,7 +6,7 @@ import Ban from './Ban';
 const Banner = () => {
     return (
         <>
-        <div style={{height:'500px'}}>
+        <div>
             <div >
                 <ParticleBackground> </ParticleBackground>
             </div>
