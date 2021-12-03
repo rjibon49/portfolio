@@ -23,6 +23,19 @@
   overflow: hidden;
 }
 
+/* BLOGS  */
+
+.blogs-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.blogs-title h1 {
+  font-size: 35px;
+  color: white;
+}
+
 
 .content {
   position: relative;
