@@ -34,7 +34,7 @@ const Ban = () => {
                                 />
                             </span>
                             <div className="mt-5 hirebtn">
-                            <a href="https://drive.google.com/file/d/1mPdmpHT4dS99HcEK4mJF9fyOBzze6BD2/view" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}} >Resume</a>
+                            <a href="https://drive.google.com/file/d/1qz8oeQuYIoSZMyJ1uOLfO3_MQDoWAkm7/view" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}} >Resume</a>
 
                             <a href="https://www.upwork.com/freelancers/~011c05ba5c4f086413" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', backgroundColor:'DodgerBlue', padding:'10px 20px', color:'white', borderRadius:'5px', fontWeight:'bold', fontSize:'18px', margin:'0px 15px'}}>Hire Me</a>
                             </div>

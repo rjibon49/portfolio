@@ -1,4 +1,8 @@
 
+.navItem {
+  text-decoration: none;
+}
+
 .bannerimage img {
   width: 60%;
   height: auto;

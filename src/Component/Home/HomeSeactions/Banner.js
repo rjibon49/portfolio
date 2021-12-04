@@ -6,7 +6,7 @@ import Ban from './Ban';
 const Banner = () => {
     return (
         <>
-        <div>
+        <div className="py-5">
             <div >
                 <ParticleBackground> </ParticleBackground>
             </div>
