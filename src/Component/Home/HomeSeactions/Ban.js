@@ -22,7 +22,7 @@ const Ban = () => {
                         <div data-aos="fade-up"  className="banner-title">
                             <h1 className="text-white title1">I'am</h1>
                             <h1 className="text-white title1">Md. Raihan Hossain</h1>
-                            <span style={{ color: 'red', fontWeight: 'bold', fontSize:'25px' }} className="subtitle">
+                            <span style={{ color: '#0fbcf9', fontWeight: 'bold', fontSize:'25px'}} className="subtitle">
                                 <Typewriter 
                                 loop
                                 cursor
